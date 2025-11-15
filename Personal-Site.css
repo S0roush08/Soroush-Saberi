@@ -166,6 +166,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 1200px;
     justify-content: center;
     width: 100%;
 }
@@ -281,4 +282,81 @@ body {
     color: #fff;
     transform: scale(1.2);
 }
+
+
+@media (max-width: 768px) {
+  .main-box {
+    padding: 16px;
+    gap: 30px;
+  }
+
+  .menu-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .menu-item {
+    flex: 1 1 45%;
+    font-size: 15px;
+    padding: 8px 0;
+  }
+
+  .about-content-box {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .about-image img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .about-icons i {
+    font-size: 22px;
+  }
+
+  .skills-box {
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .skill-item {
+    max-width: 100%;
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .skill-title {
+    font-size: 18px;
+  }
+
+  .skill-text {
+    font-size: 14px;
+  }
+
+  .resume-box,
+  .contact-box {
+    padding: 20px;
+    width: 280px;
+    margin: 0px auto;
+  }
+
+  .contact-item {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+}
+
 
